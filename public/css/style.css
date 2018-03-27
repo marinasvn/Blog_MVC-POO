@@ -1,0 +1,67 @@
+#formInscription {
+	display: none;
+}
+#formConnection {
+	display: none;
+}
+
+.btn {
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.service li {
+	cursor: pointer;
+	list-style: none;
+}
+.service li:hover {
+	color: #fff;
+}
+/*----------ADMIN--------------*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#adminContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+#adminContainer h1 { width: 100%; }
+
+#adminNav {
+	background-color: yellow;
+	width: 30%;
+	height: 100vh;
+}
+#adminNav div { 
+	height: auto; 
+	padding: 2%;
+}
+
+#adminContainer #allPosts {
+	width: 70%;
+	padding: 2%;
+}
+
+#addPostModal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+	display: none;
+	z-index: 999;
+}
+
+#addPostModal form {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	width: 50%;
+	margin: 0 auto;
+}
