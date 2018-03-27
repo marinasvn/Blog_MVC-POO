@@ -51,9 +51,9 @@ function adminSeeAllCats() {
     require('views/backend/adminView.php');
 }
 
-function addPost($title,$text,$img,$categorie) {
+function addPostController($title,$text,$img,$categorie) {
     $PostsManager = new \BLOG\models\PostsManager();
-    $addPost = $PostsManager->addPost();
+    $post = $PostsManager->addPostModel($title,$text,$img,$categorie);
 
     require('views/backend/adminView.php');
 }

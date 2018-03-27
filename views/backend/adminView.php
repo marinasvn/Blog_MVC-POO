@@ -29,7 +29,7 @@
 	<div class="modals">
 		<div id="addPostModal">
 			<button id="closeAddPostModal">Close</button>
-			<form action="index.php?action=addPost">
+			<form action="index.php?action=addPost" method="post" enctype="multipart/form-data">
 				<p class="h3">Add a post</p>
 				<input type="text" name="title" placeholder="title"><br/><br/>
 				<textarea name="text" placeholder="text of post"></textarea><br/><br/>
